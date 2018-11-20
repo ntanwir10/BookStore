@@ -8,7 +8,6 @@ import { View,
     Image, 
     FlatList,
     TouchableHighlight } from 'react-native';
-
 import PropTypes from 'prop-types';
 
 import {colors, padding, fonts} from './_base';
@@ -19,26 +18,26 @@ class Category extends Component {
         super(props);
         this.state = {
             data: [],
-            page: 1,
-            limit: 5,
-            noMore: false
+            page: props.page || 1,
+            limit: props.limit || 15,
+            noMore: props.disableInfiniteScroll || false,
         }
     }
 
     componentDidMount() {
         this.getData(); 
-
     }
 
     getData() {
         const {page, limit} = this.state;
+        const {id} = this.props;
         this.setState({loading: true}, () => {
-            fetch(`https://acamicaexample.herokuapp.com/books?category_id=0&_page=${page}&_limit=${limit}`)
+            fetch(`https://acamicaexample.herokuapp.com/books?category_id=${id}&_page=${page}&_limit=${limit}`)
             .then(response=>response.json())
             .then(data => {
                 this.setState({
                     data:[...this.state.data, ...data],
-                    noMore: data.length < limit
+                    noMore: noMore || data.length < limit
                 });
             })
             .catch(error => {
@@ -83,8 +82,13 @@ class Category extends Component {
         </View>
         ) 
     }
-   
-    
+}
+
+Category.propTypes = {
+    id: PropTypes.string.isRequired,
+    limit: PropTypes.number,
+    page: PropTypes.number,
+    disableInfiniteScroll: PropTypes.bool
 }
 
 const styles = StyleSheet.create({

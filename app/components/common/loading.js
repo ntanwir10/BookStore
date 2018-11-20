@@ -3,10 +3,10 @@ import { View, StyleSheet, ActivityIndicator } from 'react-native';
 
 import PropTypes from 'prop-types';
 
-import {colors, padding} from './../_base';
+import {colors, padding} from '../_base';
 const Loading = (props) => {
     return (
-        props.ActivityIndicator ? (
+        props.isLoading ? (
             <View style={styles.container}>
                    <ActivityIndicator
                    size="large"

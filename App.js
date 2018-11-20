@@ -1,31 +1,30 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
-
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
-
-import Category from './app/components/Category';
+import {StackNavigator} from 'react-navigation';
 
 import {colors} from './app/components/_base'
+import HomeScreen from './app/components/screens/HomeScreen';
+import CategoriesScreen from './app/components/screens/CategoriesScreen';
 
-export default class App extends Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Category/>
-      </View>
-    );
-  }
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: colors.secondaryBackground
+export default StackNavigator(
+  {
+    Home:{
+      screen: HomeScreen
+    },
+    Categories:{
+      screen: CategoriesScreen
+    },
   },
-});
+  {
+    initialRouteName: 'Home',
+    navigationOptions:{
+      headerStyle:{
+          backgroundColor: colors.primary
+      },
+      headerTintColor: colors.normaText,
+      headerTitleStyle: {
+        fontWeight: 'bold'
+      }
+    }
+  }
+);

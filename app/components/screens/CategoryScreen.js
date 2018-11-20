@@ -3,21 +3,22 @@ import {StyleSheet, Text, View} from 'react-native';
 import {StackNavigator} from 'react-navigation';
 import {colors} from '../_base';
 
-import Categories from '../Categories';
+import Category from '../Category';
 
-class CategoriesScreen extends Component {
+class CategoryScreen extends Component {
 
   static navigationOptions= {
-    title: 'Categories'
+    title: 'Category'
   }
 
   render() {
     const {navigation} = this.props;    
     return (
       <View style={styles.container}>
-        <Categories 
+        <Category
+          id= {navigation.state.params.id}
           onSelect={(id)=>{
-            navigation.navigate('Category', {id});
+            navigation.navigate('Book', {id});
           }}
           />
       </View>
@@ -33,4 +34,4 @@ const styles = StyleSheet.create({
 });
 
 
-export default CategoriesScreen;
+export default CategoryScreen;

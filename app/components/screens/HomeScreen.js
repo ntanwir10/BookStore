@@ -24,6 +24,9 @@ class HomeScreen extends Component {
           id={'0'}
           limit={3}
           disableInfiniteScroll={true}
+          onSelect = {(id) =>{
+            navigation.navigate('Book', {id});
+          }}
           />
       </View>
     );

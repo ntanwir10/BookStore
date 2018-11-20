@@ -5,6 +5,8 @@ import {StackNavigator} from 'react-navigation';
 import {colors} from './app/components/_base'
 import HomeScreen from './app/components/screens/HomeScreen';
 import CategoriesScreen from './app/components/screens/CategoriesScreen';
+import CategoryScreen from './app/components/screens/CategoryScreen';
+import BookScreen from './app/components/screens/BookScreen';
 
 export default StackNavigator(
   {
@@ -14,6 +16,12 @@ export default StackNavigator(
     Categories:{
       screen: CategoriesScreen
     },
+    Category:{
+      screen: CategoryScreen
+    },
+    Book:{
+      screen: BookScreen
+    }
   },
   {
     initialRouteName: 'Home',

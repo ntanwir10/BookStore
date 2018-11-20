@@ -29,7 +29,7 @@ class Category extends Component {
     }
 
     getData() {
-        const {page, limit} = this.state;
+        const {page, limit, noMore} = this.state;
         const {id} = this.props;
         this.setState({loading: true}, () => {
             fetch(`https://acamicaexample.herokuapp.com/books?category_id=${id}&_page=${page}&_limit=${limit}`)
@@ -61,19 +61,20 @@ class Category extends Component {
 
     render() {
         const {data, loading} = this.state;
+        const {onSelect} = this.props;
         return (
         <View >
             <FlatList 
                 data= {data}
                 keyExtractor = {item=>item.id}
                 renderItem = {({item}) => 
-                        <TouchableHighlight underlayColor={colors.primary}
+                    <TouchableHighlight 
+                        underlayColor={colors.primary}
                         style={styles.listItem}
-                        onPress={() => {
-                            console.log('pressed');
-                        }}>
-                            <Text>{item.name}</Text>
-                        </TouchableHighlight> 
+                        onPress={onSelect.bind(this, item.id)}
+                        >
+                        <Text>{item.name}</Text>
+                    </TouchableHighlight> 
                     }
                     onEndReached={this.loadMore.bind(this)}
                     onEndReachedThreshold={0.01}
@@ -88,7 +89,8 @@ Category.propTypes = {
     id: PropTypes.string.isRequired,
     limit: PropTypes.number,
     page: PropTypes.number,
-    disableInfiniteScroll: PropTypes.bool
+    disableInfiniteScroll: PropTypes.bool,
+    onSelect: PropTypes.func
 }
 
 const styles = StyleSheet.create({

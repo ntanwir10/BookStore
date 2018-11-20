@@ -8,7 +8,6 @@ import { View,
     Image, 
     FlatList,
     TouchableHighlight } from 'react-native';
-
 import PropTypes from 'prop-types';
 
 import {colors, padding} from './_base';
@@ -24,7 +23,6 @@ class Categories extends Component {
 
     componentDidMount() {
         this.getData();
-
     }
 
     getData() {
@@ -45,6 +43,7 @@ class Categories extends Component {
 
     render() {
         const {data, loading} = this.state;
+        const {onSelect} = this.props;
         return (
         <View >
             <Loading isLoading={loading}/>
@@ -54,17 +53,17 @@ class Categories extends Component {
                 renderItem = {({item}) => 
                     <TouchableHighlight underlayColor={colors.primary}
                     style={styles.listItem}
-                    onPress={() => {
-                        console.log('pressed');
-                    }}>
+                    onPress={onSelect.bind(this, item.id)}>
                         <Text>{item.name}</Text>
                     </TouchableHighlight> }
                  />
         </View>
         ) 
-    }
-   
-    
+    }    
+}
+
+Categories.propTypes = {
+    onSelect: PropTypes.func
 }
 
 const styles = StyleSheet.create({

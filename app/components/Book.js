@@ -35,6 +35,13 @@ const Book = (props) => {
     )
 }
 
+Book.propTypes = {
+    author: PropTypes.string.isRequired,
+    image: PropTypes.string,
+    description: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired
+}
+
 const styles = StyleSheet.create({
     bookContainer : {
         flex: 1,

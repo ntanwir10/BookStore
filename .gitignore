@@ -75,6 +75,4 @@ package-lock.json
 /ReactCommon/**/*.xcodeproj
 RNTester/build
 
-#project
-
 package.json

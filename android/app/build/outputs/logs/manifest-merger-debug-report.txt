@@ -1,0 +1,153 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\BookStore\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from F:\BookStore\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from F:\BookStore\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from F:\BookStore\android\app\src\main\AndroidManifest.xml:1:1-26:12
+MERGED from [com.facebook.react:react-native:0.57.5] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\react-native-0.57.5.aar\9c27cccfe27e29ff499f867d42faee1d\AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\3c606b4781ff84c135b2a3b4355e9cc7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\cd7c8770a2366232d57153b0bce953c1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\024de90081001a4c946017cf381967cd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\5b225314ffd052352f8ab72168d6887c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\5e57a8cba66b90eadb6bad2ef13cd843\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\fec698676634bf58182f6a297c9b338f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\2d16d4e409045473ba6e533f9762cf93\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\fresco-1.10.0.aar\f2885921744e3465d32966f39b453cfb\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.10.0.aar\d1e89cc2a7fb6dac9d9f227c710b1a61\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\drawee-1.10.0.aar\fdb1c9ab7b220d4156a7d8a1d3428ea6\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.10.0.aar\39511c0c551fea2c24ed886ff90483d0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.10.0.aar\bd376c4923d86515231026014b19b9fc\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\ac17a4cbd1e65b5aafaab0ea84ad4069\AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\fb32d3e24923cc64913a7eae093d37bf\AndroidManifest.xml:1:1-3:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\cd932d9411e893ecd96418b33b4ba012\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\f226b5c95e1f9cf4dac137a7e8f6c609\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\fbcore-1.10.0.aar\c6ff7551dbe7af576653585947efe5a4\AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\5fd9debf24ef6f5119c8e7c21f24157c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\2af6f654af23dd00caf8ddd604910133\AndroidManifest.xml:17:1-22:12
+INJECTED from F:\BookStore\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from F:\BookStore\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from F:\BookStore\android\app\src\main\AndroidManifest.xml:1:1-26:12
+	package
+		ADDED from F:\BookStore\android\app\src\main\AndroidManifest.xml:2:5-28
+		INJECTED from F:\BookStore\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\BookStore\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\BookStore\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\BookStore\android\app\src\main\AndroidManifest.xml:1:1-26:12
+		INJECTED from F:\BookStore\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from F:\BookStore\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\BookStore\android\app\src\main\AndroidManifest.xml:1:1-26:12
+		INJECTED from F:\BookStore\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\BookStore\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from F:\BookStore\android\app\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from F:\BookStore\android\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from F:\BookStore\android\app\src\main\AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.57.5] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\react-native-0.57.5.aar\9c27cccfe27e29ff499f867d42faee1d\AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.57.5] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\react-native-0.57.5.aar\9c27cccfe27e29ff499f867d42faee1d\AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from F:\BookStore\android\app\src\main\AndroidManifest.xml:5:22-75
+application
+ADDED from F:\BookStore\android\app\src\main\AndroidManifest.xml:7:5-24:19
+MERGED from [com.facebook.react:react-native:0.57.5] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\react-native-0.57.5.aar\9c27cccfe27e29ff499f867d42faee1d\AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.57.5] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\react-native-0.57.5.aar\9c27cccfe27e29ff499f867d42faee1d\AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\ac17a4cbd1e65b5aafaab0ea84ad4069\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\ac17a4cbd1e65b5aafaab0ea84ad4069\AndroidManifest.xml:11:5-20
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\fb32d3e24923cc64913a7eae093d37bf\AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\fb32d3e24923cc64913a7eae093d37bf\AndroidManifest.xml:2:3-17
+	android:label
+		ADDED from F:\BookStore\android\app\src\main\AndroidManifest.xml:9:7-39
+	android:icon
+		ADDED from F:\BookStore\android\app\src\main\AndroidManifest.xml:10:7-41
+	android:allowBackup
+		ADDED from F:\BookStore\android\app\src\main\AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from F:\BookStore\android\app\src\main\AndroidManifest.xml:12:7-38
+	android:name
+		ADDED from F:\BookStore\android\app\src\main\AndroidManifest.xml:8:7-38
+activity#com.bookstore.MainActivity
+ADDED from F:\BookStore\android\app\src\main\AndroidManifest.xml:13:7-22:18
+	android:label
+		ADDED from F:\BookStore\android\app\src\main\AndroidManifest.xml:15:9-41
+	android:windowSoftInputMode
+		ADDED from F:\BookStore\android\app\src\main\AndroidManifest.xml:17:9-51
+	android:configChanges
+		ADDED from F:\BookStore\android\app\src\main\AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from F:\BookStore\android\app\src\main\AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\BookStore\android\app\src\main\AndroidManifest.xml:18:9-21:25
+action#android.intent.action.MAIN
+ADDED from F:\BookStore\android\app\src\main\AndroidManifest.xml:19:13-65
+	android:name
+		ADDED from F:\BookStore\android\app\src\main\AndroidManifest.xml:19:21-62
+category#android.intent.category.LAUNCHER
+ADDED from F:\BookStore\android\app\src\main\AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from F:\BookStore\android\app\src\main\AndroidManifest.xml:20:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from F:\BookStore\android\app\src\main\AndroidManifest.xml:23:7-84
+	android:name
+		ADDED from F:\BookStore\android\app\src\main\AndroidManifest.xml:23:17-81
+uses-sdk
+INJECTED from F:\BookStore\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\BookStore\android\app\src\main\AndroidManifest.xml
+INJECTED from F:\BookStore\android\app\src\main\AndroidManifest.xml
+MERGED from [com.facebook.react:react-native:0.57.5] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\react-native-0.57.5.aar\9c27cccfe27e29ff499f867d42faee1d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.5] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\react-native-0.57.5.aar\9c27cccfe27e29ff499f867d42faee1d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\3c606b4781ff84c135b2a3b4355e9cc7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\3c606b4781ff84c135b2a3b4355e9cc7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\cd7c8770a2366232d57153b0bce953c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\cd7c8770a2366232d57153b0bce953c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\024de90081001a4c946017cf381967cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\024de90081001a4c946017cf381967cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\5b225314ffd052352f8ab72168d6887c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\5b225314ffd052352f8ab72168d6887c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\5e57a8cba66b90eadb6bad2ef13cd843\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\5e57a8cba66b90eadb6bad2ef13cd843\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\fec698676634bf58182f6a297c9b338f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\fec698676634bf58182f6a297c9b338f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\2d16d4e409045473ba6e533f9762cf93\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\2d16d4e409045473ba6e533f9762cf93\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\fresco-1.10.0.aar\f2885921744e3465d32966f39b453cfb\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\fresco-1.10.0.aar\f2885921744e3465d32966f39b453cfb\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.10.0.aar\d1e89cc2a7fb6dac9d9f227c710b1a61\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.10.0.aar\d1e89cc2a7fb6dac9d9f227c710b1a61\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\drawee-1.10.0.aar\fdb1c9ab7b220d4156a7d8a1d3428ea6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\drawee-1.10.0.aar\fdb1c9ab7b220d4156a7d8a1d3428ea6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.10.0.aar\39511c0c551fea2c24ed886ff90483d0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.10.0.aar\39511c0c551fea2c24ed886ff90483d0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.10.0.aar\bd376c4923d86515231026014b19b9fc\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.10.0.aar\bd376c4923d86515231026014b19b9fc\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\ac17a4cbd1e65b5aafaab0ea84ad4069\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\ac17a4cbd1e65b5aafaab0ea84ad4069\AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\cd932d9411e893ecd96418b33b4ba012\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\cd932d9411e893ecd96418b33b4ba012\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\f226b5c95e1f9cf4dac137a7e8f6c609\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\f226b5c95e1f9cf4dac137a7e8f6c609\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\fbcore-1.10.0.aar\c6ff7551dbe7af576653585947efe5a4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\fbcore-1.10.0.aar\c6ff7551dbe7af576653585947efe5a4\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\5fd9debf24ef6f5119c8e7c21f24157c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\5fd9debf24ef6f5119c8e7c21f24157c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\2af6f654af23dd00caf8ddd604910133\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\nauman.tanwir\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\2af6f654af23dd00caf8ddd604910133\AndroidManifest.xml:20:5-44
+INJECTED from F:\BookStore\android\app\src\main\AndroidManifest.xml
+INJECTED from F:\BookStore\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\BookStore\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\BookStore\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\BookStore\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\BookStore\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\BookStore\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\BookStore\android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from F:\BookStore\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from F:\BookStore\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from F:\BookStore\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

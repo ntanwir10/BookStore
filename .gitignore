@@ -22,31 +22,6 @@ DerivedData
 project.xcworkspace
 ios/build/
 
-# Gradle
-android/.gradle/
-/build/
-android/app/build/
-android/app/gradle/
-android/app/gradlew
-android/app/gradlew.bat
-/android/build/
-
-# Buck
-.buckd
-buck-out
-/ReactAndroid/src/main/jni/prebuilt/lib/armeabi-v7a/
-/ReactAndroid/src/main/jni/prebuilt/lib/x86/
-/ReactAndroid/src/main/gen
-
-# Watchman
-.watchmanconfig
-
-# Android
-.idea
-.gradle
-local.properties
-*.iml
-
 # Node
 node_modules
 *.log

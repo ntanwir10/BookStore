@@ -1,0 +1,4 @@
+#Tue Nov 20 12:49:08 IST 2018
+base.0=F\:\\BookStore\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

@@ -33,7 +33,8 @@ export default StackNavigator(
       headerStyle:{
           backgroundColor: colors.primary,
           elevation: 0,
-          shadowOpacity: 0
+          shadowOpacity: 0,
+          borderBottomWidth: 0,
       },
       headerTintColor: colors.normaText,
       headerTitleStyle: {

@@ -12,15 +12,17 @@ class SplashScreen extends Component {
         return(
             <View style={styles.container}>
                 <SplashAnimation navigation = {navigation}>
-                    <StatusBar style={styles.StatusBar} />
-                    <View style={styles.appName}>
-                        <Text>Book Store</Text>
+                    <StatusBar backgroundColor="#28F1A6"/>
+                    <View style={styles.appNameContainer}>
+                        <Text style={styles.appName}>Book Store</Text>
+                        
+                        <View>
+                            <Text style={styles.subText}>Demo App</Text>
+                        </View>
                     </View>
+                    
                     <View>
-                        <Text>Demo App</Text>
-                    </View>
-                    <View>
-                        <Text>Built using React Na</Text>
+                        <Text style={styles.footerText}>Built using React Na</Text>
                     </View>
                 </SplashAnimation>
             </View>
@@ -40,8 +42,28 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     },
     StatusBar: {
-        backgroundColor: colors.primary,
-    }
+        backgroundColor: '#28F1A6',
+    },
+    appNameContainer:{
+        flex: 2,
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection:'row',
+    },
+    appName: {
+        color: '#ffffff',
+        fontSize: 20,
+        fontWeight: 'bold'
+    },
+    subText: {
+        color: '#ffffff',
+        fontSize: 18
+    },
+    footerText: {
+        color: '#ffffff',
+        fontSize: 16
+    },
+    
 });
 
 export default SplashScreen;

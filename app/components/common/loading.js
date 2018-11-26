@@ -10,7 +10,7 @@ const Loading = (props) => {
             <View style={styles.container}>
                    <ActivityIndicator
                    size="large"
-                    color={colors.secondary}
+                    color={colors.primary}
                    />     
             </View>
         ) : false

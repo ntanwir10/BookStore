@@ -3,7 +3,8 @@ export const colors = {
     secondary: '#180A32',
     normaText: '#333333',
     background: '#ffffff',
-    secondaryBackground:  '#cccccc'
+    secondaryBackground:  '#cccccc',
+    splashText: '#ffffff'
 }
 
 export const padding = {
